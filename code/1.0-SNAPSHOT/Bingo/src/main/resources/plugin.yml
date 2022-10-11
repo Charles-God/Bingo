@@ -1,0 +1,18 @@
+name: Bingo
+version: '${project.version}'
+main: bingo.bingo.Bingo
+api-version: 1.18
+authors: [ Charles_God ]
+description: Bingo!
+
+commands:
+  bingo:
+    description: execute a bingo game!
+    usage: /<command>
+    permission: bingo
+    permission-message: You can't execute a bingo game!
+
+permissions:
+  bingo:
+    description: permission to execute a bingo game.
+    default: op

@@ -1,0 +1,8 @@
+enablePvp: true
+killLoot: true
+respawn: true
+spawnRadius: 8000
+borderRadius: 10000
+refill: false
+
+setPrefix: false
